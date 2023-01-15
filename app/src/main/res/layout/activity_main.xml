@@ -1,24 +1,29 @@
-<!--
-  ~ Copyright (c) 2016-present 贵州纳雍穿青人李裕江<1032694760@qq.com>
-  ~
-  ~ The software is licensed under the Mulan PSL v2.
-  ~ You can use this software according to the terms and conditions of the Mulan PSL v2.
-  ~ You may obtain a copy of Mulan PSL v2 at:
-  ~     http://license.coscl.org.cn/MulanPSL2
-  ~ THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR
-  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR
-  ~ PURPOSE.
-  ~ See the Mulan PSL v2 for more details.
-  -->
+<?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout android:id="@+id/container"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/header_hint"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Hello World!" />
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="@string/main_hint_txt"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
 
-</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#888888"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
