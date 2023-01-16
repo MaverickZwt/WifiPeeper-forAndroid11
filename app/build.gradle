@@ -1,4 +1,6 @@
 /*
+ * Copyright (c) 2023-present MaverickZhao<479155558@qq.com>
+ * Based on work by
  * Copyright (c) 2016-present 贵州纳雍穿青人李裕江<1032694760@qq.com>
  *
  * The software is licensed under the Mulan PSL v2.
@@ -18,12 +20,14 @@ dependencies {
     implementation androidxLibrary.multidex
     implementation androidxLibrary.appcompat
     implementation library.material
+    implementation group: 'org.dom4j', name: 'dom4j', version: '2.1.3'
+
 }
 
 android {
     defaultConfig {
         //应用的实际包名
-        applicationId "com.github.gzuliyujiang.demo"
+        applicationId "com.maverick.wifipeeper"
         // 配合 productFlavors 节点按不同维度打包
         flavorDimensions "MODE"
         // 修改 AndroidManifest.xml 里的变量，占位值无法覆盖的坑可参阅 https://www.jianshu.com/p/1d5271c2c366

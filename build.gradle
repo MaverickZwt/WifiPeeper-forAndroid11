@@ -1,4 +1,6 @@
 /*
+ * Copyright (c) 2023-present MaverickZhao<479155558@qq.com>
+ * Based on work by
  * Copyright (c) 2016-present 贵州纳雍穿青人李裕江<1032694760@qq.com>
  *
  * The software is licensed under the Mulan PSL v2.
@@ -23,7 +25,7 @@ buildscript {
         maven { url 'https://repo1.maven.org/maven2/' }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath 'com.android.tools.build:gradle:7.1.2'
     }
 }
 

@@ -1,4 +1,6 @@
 /*
+ * Copyright (c) 2023-present MaverickZhao<479155558@qq.com>
+ * Based on work by
  * Copyright (c) 2016-present 贵州纳雍穿青人李裕江<1032694760@qq.com>
  *
  * The software is licensed under the Mulan PSL v2.
@@ -10,25 +12,25 @@
  * PURPOSE.
  * See the Mulan PSL v2 for more details.
  */
+package com.maverick.wifipeeper;
 
-package com.github.gzuliyujiang.fallback;
+public class WifiInfo {
+    private String name;
+    private String password;
 
-import android.app.Application;
-import android.content.Context;
-
-import androidx.multidex.MultiDex;
-
-/**
- * @author 贵州山野羡民（1032694760@qq.com）
- * @see androidx.multidex.MultiDexApplication
- * @since 2021/5/15 16:01
- */
-public class DemoApp extends Application {
-
-    @Override
-    protected void attachBaseContext(Context base) {
-        super.attachBaseContext(base);
-        MultiDex.install(this);
+    public String getName() {
+        return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

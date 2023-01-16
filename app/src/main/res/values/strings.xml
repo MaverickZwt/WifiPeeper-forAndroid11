@@ -1,12 +1,14 @@
 <resources>
-    <string name="app_name">Wifi密码查看器</string>
+    <string name="app_name">WifiPeeper</string>
     <string name="main_hint_txt">友情提示：长按可复制密码</string>
     <string name="iten_name_hint">名称：</string>
     <string name="item_pasword_hint">密码：</string>
     <string name="copy_success">密码复制成功</string>
-    <string name="not_root_hint">请先获取Root权限...</string>
-    <string name="not_root_hint_txt">请确保本程序已获取Root权限，本软件为开源项目，绝对保证无安全隐患，请从正规渠道下载!!!</string>
+    <string name="not_root_hint">请先获取 Root 权限</string>
+    <string name="not_root_hint_txt">请确保本程序已获取 Root 权限，本软件为开源项目，绝对保证无安全隐患，请从 github 下载!!!</string>
     <string name="empty_password">无密码</string>
-    <string name="github">https://github.com/Wing-Li</string>
-    <string name="home">http://www.jianshu.com/users/320f9e8f7fc9/</string>
+    <string name="github">https://github.com/MaverickZwt</string>
+    <string name="github_wifipassword">https://github.com/Wing-Li/WifiPassword</string>
+    <string name="github_template">https://github.com/gzu-liyujiang/AliyunGradleConfig</string>
+    <string name="home">还没有哦嘿嘿嘿</string>
 </resources>

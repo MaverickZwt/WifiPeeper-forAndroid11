@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:src="@mipmap/header"/>
+        android:src="@mipmap/header" />
 
     <TextView
         android:layout_width="match_parent"
@@ -18,9 +18,9 @@
         android:background="#cff0da"
         android:gravity="center"
 
-        android:text="Wing_Li"
+        android:text="MaverickZhao"
         android:textSize="18sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
 
     <TextView
@@ -29,12 +29,13 @@
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="GitHub"
-        />
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/github"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="30dp"
         android:background="#88dba3"
         android:gravity="center"
         android:onClick="github"
@@ -44,20 +45,46 @@
         />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="32dp"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="个人主页"
+        android:text="Base on"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/github2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#88dba3"
+        android:gravity="center"
+        android:onClick="github"
+        android:text="@string/github_wifipassword"
+        android:textColor="#3949AB"
+
         />
 
     <TextView
-        android:id="@+id/home"
+        android:id="@+id/github3"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="#3ac569"
+        android:layout_height="30dp"
+        android:background="#88dba3"
         android:gravity="center"
-        android:onClick="home"
-        android:text="@string/home"
-        android:textColor="#263959" />
+        android:onClick="github"
+        android:text="@string/github_template"
+        android:textColor="#3949AB"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="For Android 11"
+        android:textStyle="bold" />
+
 </LinearLayout>
